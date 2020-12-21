@@ -1,0 +1,30 @@
+.buttons{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+.buttons button{
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    border: 0.6px solid #2c71e8
+    ;
+    padding: 8px;
+    color:#2c71e8;
+}
+
+button:nth-child(1):hover{
+    outline: none;
+    background-color: thistle;
+}
+
+.buttons button:nth-child(2) {
+    background-color: #2c71e8;
+    color: white;
+}
+
+button:nth-child(2):hover{
+    outline: none;
+    background-color: #2c71e8;
+}
+

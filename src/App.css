@@ -1,0 +1,26 @@
+.desktopView{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobileView{
+        display: none;
+    }
+    .desktopView{
+        display: block;
+    }
+    .carouselAndBtns{
+        width: 40%;
+    }
+    .rightDescription{
+        border-right: 1px solid lightgray;
+        width: 60%;
+    }
+    .desktopWrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

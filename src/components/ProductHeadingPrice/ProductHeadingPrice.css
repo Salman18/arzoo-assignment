@@ -1,0 +1,42 @@
+.headingWrapper{
+width: 90%;
+margin: 10px auto;
+}
+
+.headingWrapper h4 span {
+    color: grey;
+}
+.headingWrapper p{
+    font-size: 15px;
+}
+.stars span{
+    color: #2c71e8;
+    font-size: 20px;
+}
+
+.price{
+    width: 85%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price h2{
+    color: green;
+}
+
+
+@media (min-width: 768px) {
+    .starsAndPrice{
+        margin: 20px auto 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .price {
+        width: 200px;
+        font-size: 12px;
+    }
+}

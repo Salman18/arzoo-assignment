@@ -1,0 +1,11 @@
+.CarouselWrapper{
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.imgStyles{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}

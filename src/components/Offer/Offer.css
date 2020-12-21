@@ -1,0 +1,63 @@
+.availableOffer{
+    width: 90%;
+    max-width: 325px;
+    margin: 10px auto;
+    border: 1px solid rgb(150, 150, 150);
+}
+.availableOffer h5{
+    padding: 0 8px 0 8px;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.availableOffer p{
+    font-size: 12px;
+    padding: 5px 8px 5px 8px;
+}
+
+.availableOffer span {
+    cursor: pointer;
+    color: #2c71e8;
+    font-weight: 700;
+}
+
+.availableOffer p:nth-child(5){
+    font-weight: 500;
+    color: #2c71e8;
+    cursor: pointer;
+}
+
+.warranty{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pincode{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pincode input {
+    width: 100px;
+    font-size: 12px;
+    border: none;
+    padding: 4px;
+    border-bottom: 1px solid grey;
+}
+
+.pincode i{
+    cursor: pointer;
+    color: #2c71e8;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .availableOffer{
+        margin: 10px 0 10px 25px;
+    }
+.availableOffer p{
+    padding: 8px;
+
+}
+}

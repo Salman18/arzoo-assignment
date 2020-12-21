@@ -1,0 +1,44 @@
+.specs{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.specsDetails {
+    margin: 20px 0;
+}
+
+.viewMore{
+    color: 2c71e8;
+    font-weight: 500;
+}
+
+.specsSpacing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color:#d0ddff;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+}
+
+.specsSpacing:hover{
+    background-color: rgb(156, 156, 156);;
+}
+
+@media (min-width: 768px) {
+    .specsDetails p{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    .specsDetails {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .specsWrapper{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
